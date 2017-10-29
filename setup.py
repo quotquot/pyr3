@@ -42,6 +42,13 @@ else:
 
 
 setup(
+    name = "r3",
+    version = '1.0.0',
+    description = 'a python wrapper for r3',
+    url = 'https://github.com/lucemia/pyr3',
+    author = 'lucemia',
+    author_email = 'lucemia@gmail.com',
+    packages = ['r3'],
     cmdclass = cmdclass,
     ext_modules = ext_modules
 )
